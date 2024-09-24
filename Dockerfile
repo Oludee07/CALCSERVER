@@ -1,6 +1,6 @@
 FROM node:22-slim
 
-WORKDIR /app
+WORKDIR /api/calculate/app
 
 COPY package*.json ./
 
